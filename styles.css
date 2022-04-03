@@ -1,21 +1,41 @@
 body {
-    background: lightpink;
+    background: #F0F8FF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .assignment{
     display:flex;
     padding:10px;
+    margin:10px;
+    background:#7B68EE;
+    border-radius:30px;
 }
 
 .assignment img{
     width:200px;
-    padding:10px;
     margin:10px;
-    background:lightslategray;
+    border:4px dashed whitesmoke;
+}
+
+.assignment img:hover{
+    border:4px dashed #20B2AA;
 }
 
 h1 {
     color:darkorchid;
     text-align:center;
+}
+
+h1:hover{
+    color:#20B2AA;
+}
+
+
+a{
+    text-decoration:none;
+    color: #ADB1C0;
+}
+
+a:hover{
+    color:#20B2AA;
 }
